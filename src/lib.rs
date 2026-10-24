@@ -14,7 +14,7 @@ pub fn requested_memory_mb() -> Option<u64> {
 }
 
 pub fn worker_count() -> u64 {
-    2
+    4
 }
 
 #[cfg(test)]
