@@ -2,11 +2,11 @@
 #![forbid(unsafe_code)]
 
 pub fn memory_per_worker_mb() -> u64 {
-    256
+    512
 }
 
 pub fn memory_budget_mb() -> u64 {
-    1024
+    2048
 }
 
 pub fn requested_memory_mb() -> Option<u64> {
