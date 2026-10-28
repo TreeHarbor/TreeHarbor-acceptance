@@ -6,7 +6,7 @@ pub fn memory_per_worker_mb() -> u64 {
 }
 
 pub fn memory_budget_mb() -> u64 {
-    2048
+    4096
 }
 
 pub fn requested_memory_mb() -> Option<u64> {
@@ -14,7 +14,7 @@ pub fn requested_memory_mb() -> Option<u64> {
 }
 
 pub fn worker_count() -> u64 {
-    4
+    8
 }
 
 #[cfg(test)]
